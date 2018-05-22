@@ -11,7 +11,7 @@ g++ color-quantize.cpp -o executable \`pkg-config --cflags --libs opencv\` -std=
 ./executable /home/2vin/myphoto.jpg 5
 (Note: Substitute "/home/2vin/myphoto.jpg" by path of an existing image)
 
-Here is a demo of performing different number of clusters on same image:
+Here is a demo of testing different number of clusters on same image:
 
 Raw image    
 ![alt text](https://github.com/2vin/color-quantize/blob/master/data/test.jpg)
