@@ -2,7 +2,7 @@
 Image segmentation using K-Means clustering technique
 
 # Compile
-g++ color_quantize.cpp -o executable `pkg-config --cflags --libs opencv` -std=c++11
+g++ color_quantize.cpp -o executable \`pkg-config --cflags --libs opencv\` -std=c++11
 
 # Usage
 ./executable image_path number_of_clusters
