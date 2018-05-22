@@ -1,5 +1,5 @@
 # color-quantize
-Image segmentation using K-Means clustering technique
+Image clustering using K-Means clustering technique
 
 # Compile
 g++ color-quantize.cpp -o executable \`pkg-config --cflags --libs opencv\` -std=c++11
