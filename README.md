@@ -13,17 +13,17 @@ g++ color-quantize.cpp -o executable \`pkg-config --cflags --libs opencv\` -std=
 
 Here is a demo of performing different number of clusters on same image:
 
-Raw image
+Raw image    
 ![alt text](https://github.com/2vin/color-quantize/blob/master/data/test.jpg)
 
-Number of clusters = 2
+Number of clusters = 2    
 ![alt text](https://github.com/2vin/color-quantize/blob/master/data/result_2.jpg)
 
-Number of clusters = 4
+Number of clusters = 4    
 ![alt text](https://github.com/2vin/color-quantize/blob/master/data/result_4.jpg)
 
-Number of clusters = 8
+Number of clusters = 8    
 ![alt text](https://github.com/2vin/color-quantize/blob/master/data/result_8.jpg)
 
-Number of clusters = 16
+Number of clusters = 16    
 ![alt text](https://github.com/2vin/color-quantize/blob/master/data/result_16.jpg)
